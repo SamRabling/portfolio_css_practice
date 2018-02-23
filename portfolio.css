@@ -1,13 +1,42 @@
 .wrapper{
-    width: 1000px;
+    width: 900px;
     min-height: 500px;
     overflow: auto;
     border: dotted red 3px;
     background: radial-gradient(rgb(91,70,81) 50%, rgb(22,11,14));
 }
+    /* G E N E R A L   L A Y O U T */
+.headText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:white;
+    margin: 0px;
+}
 
+.titleBox{
+    height: 35px;
+    background: linear-gradient(rgb(157,156,162),rgb(115,113,129), rgb(157,156,162));
+}
+
+.TechHead{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:white;
+    margin: 0px;
+
+}
+
+.projectBox{
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 8px 15px 8px;
+    background: linear-gradient(to right, white, rgb(209,192,208));
+}
+
+    /*  H E A D E R   S E C T I O N  E S P E C I F I C   E L E M E N T S  */
 .header{
-    width:1000px;
+    width:900px;
     height:50px;
     /* background-color: radial-gradient( white, rgb(240,240,240)); */
     background-color: white;
@@ -21,7 +50,7 @@
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 30px;
     font-weight: bold;
-    margin: 0px 300px 0px 15px;
+    margin: 0px 200px 0px 15px;
 }
 
 .headSelfProclaimed{
@@ -31,61 +60,56 @@
     margin: 0px 15px 0px 0px;
 }
 
+    /*  A B O U T   S E C T I O N  E S P E C I F I C   E L E M E N T S */
+
 .profilePic{
     display: inline-block;
     width: 350px;
     height: auto;
     border: solid rgb(179, 179, 179) 5px;
     margin: 20px;
-}
-.about{
-    width: 1000px;
-    height: 600px;
-}
-
-.aboutBox{
-    width: 400px;
-    display: inline-block;
-    background-color: linear-gradient(to right, white, rgb(209,192,208));
-}
-
-.headText{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color:white;
-    margin: 0px;
-}
-
-.titleBox{
-    height: 30px;
-    background: linear-gradient(white, grey);
-}
-
-.TechHead{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color:white;
-    margin: 0px;
-
-}
-
-.DesPic{
-    height: 160px;
-    width: auto;
-}
-
-.TechIcon{
-    width: 50px;
-    height: auto;
-}
-
-.projectBox{
-    width: 315px;
-    display: inline-block;
     vertical-align: top;
 }
 
-.footerImg{
-    width:20px;
+.aboutTextBox{
+    width: 470px;
+    margin: 20px 20px 20px 0px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: linear-gradient(to right, white, rgb(209,192,208));
+}
+
+    /*  P R O J E C T   S E C T I O N  E S P E C I F I C   E L E M E N T S   */
+
+.DesPic{
+    height: auto;
+    width: 280px;
+}
+
+.TechIcon{
+    width: 40px;
+    height: auto;
+    margin: 10px 0px 10px 10px;
+}
+
+.DesText{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 13px;
+}
+
+button{
+    display: block;
+}
+
+
+    /*  F O O T E R   S E C T I O N  E S P E C I F I C   E L E M E N T S */
+.footer{
+
+}
+
+    .footerImg{
+    width:18px;
     height: auto;
 }
