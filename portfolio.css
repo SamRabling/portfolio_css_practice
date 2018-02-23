@@ -2,7 +2,8 @@
     width: 1000px;
     min-height: 500px;
     overflow: auto;
-    background: radial-gradient(black, rgb(91,70,81));
+    border: dotted red 3px;
+    background: radial-gradient(rgb(91,70,81) 50%, rgb(22,11,14));
 }
 
 .header{
@@ -37,7 +38,6 @@
     border: solid rgb(179, 179, 179) 5px;
     margin: 20px;
 }
-
 .about{
     width: 1000px;
     height: 600px;
@@ -67,4 +67,25 @@
     color:white;
     margin: 0px;
 
+}
+
+.DesPic{
+    height: 160px;
+    width: auto;
+}
+
+.TechIcon{
+    width: 50px;
+    height: auto;
+}
+
+.projectBox{
+    width: 315px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footerImg{
+    width:20px;
+    height: auto;
 }
