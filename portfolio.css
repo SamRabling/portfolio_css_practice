@@ -2,7 +2,7 @@
     width: 900px;
     min-height: 500px;
     overflow: auto;
-    border: dotted red 3px;
+    /* border: dotted red 3px; */
     background: radial-gradient(rgb(91,70,81) 50%, rgb(22,11,14));
 }
     /* G E N E R A L   L A Y O U T */
@@ -11,6 +11,8 @@
     font-size: 18px;
     color:white;
     margin: 0px;
+    padding: 8px 0px 0px 10px;
+    
 }
 
 .titleBox{
@@ -22,23 +24,29 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color:white;
+    font-weight: bold;
     margin: 0px;
+    padding: 8px 0px 0px 10px;
 
 }
 
 .projectBox{
-    width: 280px;
+    width: 270px;
     display: inline-block;
     vertical-align: top;
-    margin: 0px 8px 15px 8px;
+    margin: 0px 0px 15px 20px;
     background: linear-gradient(to right, white, rgb(209,192,208));
+}
+
+a{
+    color: black;
 }
 
     /*  H E A D E R   S E C T I O N  E S P E C I F I C   E L E M E N T S  */
 .header{
     width:900px;
     height:50px;
-    /* background-color: radial-gradient( white, rgb(240,240,240)); */
+    background:radial-gradient( white, rgb(240,240,240));
     background-color: white;
 }
 
@@ -50,7 +58,7 @@
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 30px;
     font-weight: bold;
-    margin: 0px 200px 0px 15px;
+    margin: 0px 265px 0px 15px;
 }
 
 .headSelfProclaimed{
@@ -77,39 +85,76 @@
     display: inline-block;
     vertical-align: top;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 13.5px;
     background: linear-gradient(to right, white, rgb(209,192,208));
+}
+
+.aboutTextCont{
+    padding:0px 10px 0px 10px;
 }
 
     /*  P R O J E C T   S E C T I O N  E S P E C I F I C   E L E M E N T S   */
 
 .DesPic{
     height: auto;
-    width: 280px;
+    width: 270px;
 }
 
 .TechIcon{
-    width: 40px;
+    width: 35px;
     height: auto;
-    margin: 10px 0px 10px 10px;
+    margin: 10px 10px 5px 0px;
+    display:inline-block;
 }
 
 .DesText{
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 13px;
+    margin:0px;
+    padding: 8px 8px 0px 8px; 
+    text-align:justify;
+    height: 151px;
+}
+
+.DesTextFam{
+    padding: 0px 0px 10px 0px;
+}
+
+.iconsBox{
+    padding:0px 10px 0px 19px;
 }
 
 button{
-    display: block;
+    font-weight: bold;
+    color: white;
+    background: rgb(66, 129, 96);
+    padding: 5px;
+    margin: 0px 50px 15px 90px;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,.45);
 }
 
 
     /*  F O O T E R   S E C T I O N  E S P E C I F I C   E L E M E N T S */
 .footer{
-
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 13px;
+    background:radial-gradient( white, rgb(240,240,240));
+    text-align: center;
+    padding:5px 5px 10px 5px;
 }
 
-    .footerImg{
+.contactInfo{
+    margin:8px 0px 8px 0px;
+}
+
+.footerImg{
     width:18px;
     height: auto;
+}
+
+.footerLink{
+    font-style: italic;
+
 }
