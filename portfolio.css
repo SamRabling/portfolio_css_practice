@@ -1,0 +1,70 @@
+.wrapper{
+    width: 1000px;
+    min-height: 500px;
+    overflow: auto;
+    background: radial-gradient(black, rgb(91,70,81));
+}
+
+.header{
+    width:1000px;
+    height:50px;
+    /* background-color: radial-gradient( white, rgb(240,240,240)); */
+    background-color: white;
+}
+
+.headerText{
+    display: inline-block;
+}
+
+.headName{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px 300px 0px 15px;
+}
+
+.headSelfProclaimed{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px 15px 0px 0px;
+}
+
+.profilePic{
+    display: inline-block;
+    width: 350px;
+    height: auto;
+    border: solid rgb(179, 179, 179) 5px;
+    margin: 20px;
+}
+
+.about{
+    width: 1000px;
+    height: 600px;
+}
+
+.aboutBox{
+    width: 400px;
+    display: inline-block;
+    background-color: linear-gradient(to right, white, rgb(209,192,208));
+}
+
+.headText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:white;
+    margin: 0px;
+}
+
+.titleBox{
+    height: 30px;
+    background: linear-gradient(white, grey);
+}
+
+.TechHead{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:white;
+    margin: 0px;
+
+}
